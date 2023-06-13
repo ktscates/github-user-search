@@ -95,7 +95,7 @@ const Users = ({ username, theme}) => {
                   <div>
                     <Image src={theme === 'dark' ? linkw : link} alt="logo" width={20} height={20} />
                   </div>
-                  <h2 className="text-navy text-[15px] font-normal">
+                  <h2 className="text-navy text-[15px] font-normal dark:text-white">
                     {username.html_url}
                   </h2>
                 </div>
