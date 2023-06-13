@@ -25,6 +25,7 @@ const Users = ({ username, theme}) => {
               alt="logo"
               width={125}
               height={125}
+              priority={true}
             />
           </div>
           <div className="flex flex-col w-full">
