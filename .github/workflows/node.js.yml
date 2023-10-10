@@ -29,7 +29,7 @@ jobs:
         
     - run: yarn
     
-    - run: yarn run build --if-present
+    - run: yarn run build
     
     - name: Run the tests and generate coverage report
       run: yarn run test
