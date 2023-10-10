@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9df06790-f675-40bc-94e9-110b6033af9e/deploy-status)](https://app.netlify.com/sites/stirring-faloodeh-8c68ea/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9df06790-f675-40bc-94e9-110b6033af9e/deploy-status)](https://app.netlify.com/sites/stirring-faloodeh-8c68ea/deploys)  ![Github actions](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
