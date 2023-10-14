@@ -12,10 +12,8 @@ const Search = ({ changeTheme, theme }) => {
   const [noResults, setNoResults] = useState(false);
 
   useEffect(() => {
-    if (!username) {
-      getUser("octocat");
-    }
-  });
+    getUser("octocat");
+  }, []);
 
   const getUser = (username) => {
     axios

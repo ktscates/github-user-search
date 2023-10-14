@@ -47,14 +47,14 @@ export default function Home() {
           >
             {theme === "dark" ? "LIGHT" : "DARK"}
           </h1>
-          {/* <Image
+          <Image
             className="cursor-pointer items-center mt-1"
-            src={moon}
+            src={theme === "dark" ?sun : moon}
             alt="theme"
             width={20}
             height={20}
             onClick={changeTheme}
-          /> */}
+          />
         </div>
       </div>
       <Search changeTheme={changeTheme} theme={theme} />

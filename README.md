@@ -1,38 +1,40 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9df06790-f675-40bc-94e9-110b6033af9e/deploy-status)](https://app.netlify.com/sites/stirring-faloodeh-8c68ea/deploys)  ![Github actions](https://github.com/ktscates/github-user-search/actions/workflows/node.js.yml/badge.svg)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Github user search App  solution
 
-## Getting Started
+This is a solution to the [Github user search App challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+### The challenge
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Users should be able to:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Search for GitHub users by their username
+- See relevant user information based on their search
+- Switch between light and dark themes
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Screenshot
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Github User Search App](./public/assets/preview.jpg)
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
+- Solution URL: [On github](https://github.com/ktscates/github-user-search)
+- Live Site URL: [Live](https://stirring-faloodeh-8c68ea.netlify.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Built with
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/) - React framework
+- [TailwindCSS](https://nextjs.org/) - CSS framework
 
-## Deploy on Vercel
+### Useful resources
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/) - React framework
+- [TailwindCSS](https://nextjs.org/) - CSS framework
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+
+- Github - [Cates Nsengiyumva](https://github.com/ktscates)
+- Frontend Mentor - [@ktscates](https://www.frontendmentor.io/profile/ktscates)
+
