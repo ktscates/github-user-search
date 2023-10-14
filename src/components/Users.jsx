@@ -37,9 +37,9 @@ const Users = ({ username, theme }) => {
               <h1 className="font-bold lg:leading-[39px] lg:text-[26px] leading-6 text-4 text-numbers dark:text-white">
                 {username?.name}
               </h1>
-              <h6 className=" font-normal lg:text-base lg:leading-6 text-[13px] leading-[19px] text-blue">
+              <h2 className=" font-normal lg:text-base lg:leading-6 text-[13px] leading-[19px] text-blue">
                 @{username?.login}
-              </h6>
+              </h2>
             </div>
             <h4 className=" font-normal text-modes dark:text-white lg:leading-[22px] lg:text-[15px] text-[13px] leading-[19px] mt-[6px]">
               {"Joined " + Moment(username?.created_at).format("DD MMM YYYY")}
@@ -50,25 +50,25 @@ const Users = ({ username, theme }) => {
           </h3>
           <div className="lg:flex md:hidden hidden flex-row justify-around py-3 rounded-[10px] mt-8 bg-backgroundLight dark:bg-infoDark dark:text-white">
             <div>
-              <h6 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
+              <h2 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
                 Repos
-              </h6>
+              </h2>
               <h2 className=" text-numbers dark:text-white font-bold lg:text-[22px] text-[16px] lg:leading-8 leading-6 lg:text-left text-center">
                 {username?.public_repos ? username?.public_repos : "0"}
               </h2>
             </div>
             <div>
-              <h6 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
+              <h2 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
                 Followers
-              </h6>
+              </h2>
               <h2 className=" text-numbers font-bold lg:text-[22px] text-[16px] lg:leading-8 leading-6 lg:text-left text-center dark:text-white">
                 {username?.followers ? username?.followers : "0"}
               </h2>
             </div>
             <div>
-              <h6 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
+              <h2 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
                 Following
-              </h6>
+              </h2>
               <h2 className=" text-numbers font-bold lg:text-[22px] text-[16px] lg:leading-8 leading-6 lg:text-left text-center dark:text-white">
                 {username?.following ? username?.following : "0"}
               </h2>
@@ -159,25 +159,25 @@ const Users = ({ username, theme }) => {
       </h3>
       <div className="lg:hidden flex flex-row justify-around py-3 rounded-[10px] mt-8 bg-backgroundLight dark:bg-infoDark dark:text-white">
         <div>
-          <h6 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
+          <h2 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
             Repos
-          </h6>
+          </h2>
           <h2 className=" text-numbers dark:text-white font-bold lg:text-[22px] text-[16px] lg:leading-8 leading-6 lg:text-left text-center">
             {username?.public_repos ? username?.public_repos : "0"}
           </h2>
         </div>
         <div>
-          <h6 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
+          <h2 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
             Followers
-          </h6>
+          </h2>
           <h2 className=" text-numbers font-bold lg:text-[22px] text-[16px] lg:leading-8 leading-6 lg:text-left text-center dark:text-white">
             {username?.followers ? username?.followers : "0"}
           </h2>
         </div>
         <div>
-          <h6 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
+          <h2 className=" font-normal lg:text-[13px] text-[11px] lg:leading-[19px] leading-4 text-navy dark:text-white">
             Following
-          </h6>
+          </h2>
           <h2 className=" text-numbers font-bold lg:text-[22px] text-[16px] lg:leading-8 leading-6 lg:text-left text-center dark:text-white">
             {username?.following ? username?.following: "0"}
           </h2>

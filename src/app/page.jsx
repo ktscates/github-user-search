@@ -33,7 +33,7 @@ export default function Home() {
   };
 
   return (
-    <main className=" bg-backgroundLight dark:bg-backgroundDark flex flex-col min-h-screen lg:pt-[144px] md:pt-[140px] pt-[31px]">
+    <main className=" bg-backgroundLight dark:bg-backgroundDark flex flex-col min-h-screen lg:pt-[140px] md:pt-[140px] pt-[31px]">
       <div className="lg:mx-auto lg:w-[730px] md:w-[573px] md:mx-auto mx-6 text-title flex flex-row justify-between">
         <h1 className="font-bold text-[26px] leading-[39px] dark:text-white">
           devfinder

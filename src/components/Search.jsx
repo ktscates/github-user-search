@@ -41,13 +41,13 @@ const Search = ({ changeTheme, theme }) => {
   return (
     <>
       <div
-        className={`lg:mx-auto mx-6 lg:w-[730px] md:w-[573px] md:mx-auto flex flex-row justify-between bg-white mt-9 py-3 px-[10px] rounded-[15px] dark:bg-searchDark ${
+        className={`lg:mx-auto mx-6 lg:w-[730px] md:w-[573px] md:mx-auto flex flex-row justify-between bg-white mt-9 py-2 px-[10px] rounded-[15px] dark:bg-searchDark ${
           theme === "light" ? "searchbox" : ""
         }`}
       >
         <div className="flex flex-row lg:gap-6 gap-2 items-center">
           <div className="lg:pl-6 pl-0">
-            <Image src={search} alt="search icon" width="auto" height="auto" />
+            <Image src={search} alt="search icon" width={20} height={20} />
           </div>
           <div className="lg:w-72 w-52 lg:flex lg:justify-between gap-8">
             <input
