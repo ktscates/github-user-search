@@ -1,6 +1,6 @@
 "use client";
 
-import { React, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import search from "../../public/assets/search.svg";
 import Users from "./Users";
@@ -21,8 +21,8 @@ const Search = ({ changeTheme, theme }) => {
     axios
       .get(`https://api.github.com/users/${username}`)
       .then((res) => {
-          setUsername(res.data);
-          setNoResults(false)
+        setUsername(res.data);
+        setNoResults(false);
       })
       .catch((error) => {
         if (error.response.status === 404) {
