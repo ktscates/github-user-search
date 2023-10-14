@@ -11,32 +11,22 @@ const Search = ({ changeTheme, theme }) => {
   const [username, setUsername] = useState({});
   const [noResults, setNoResults] = useState(false);
 
-  console.log("no results", noResults);
-
   useEffect(() => {
     if (!username) {
       getUser("octocat");
     }
-  }, []);
+  });
 
   const getUser = (username) => {
     axios
       .get(`https://api.github.com/users/${username}`)
       .then((res) => {
-        // if (res.status === 200) {
           setUsername(res.data);
           setNoResults(false)
-        // } else {
-        //   getUser("octocat");
-        //   setNoResults(true);
-        // }
-
-        console.log("status", res);
       })
       .catch((error) => {
         if (error.response.status === 404) {
           setNoResults(true);
-          // getUser("octocat");
         }
       });
   };

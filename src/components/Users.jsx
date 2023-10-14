@@ -13,7 +13,6 @@ import twitterw from "../../public/assets/twitterw.svg";
 import Moment from "moment";
 
 const Users = ({ username, theme }) => {
-  console.log("username in the users component", username);
 
   return (
     <div
